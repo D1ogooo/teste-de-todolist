@@ -12,7 +12,7 @@ function Search({ setLista }){
 
     let NewTable = {
      text: `${valueInput}`,
-
+     done: false,
     }
     
     if (valueInput.length > 0){
